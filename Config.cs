@@ -4,12 +4,17 @@ using System.Windows.Forms;
 public static class Config
 {
     // Settings
-    private static string folderName = @"E:\baze\backup";
-    // backupFolder treba imati \\ na kraju
-    private static string backupFolder = @"E:\baze\backup\";
-    private static string dbServer = "localhost";
-    private static string user = "METRO\\jurica";
-    private static string pass = "123";
+    
+    // Path to Folder with .mdf files
+    private static string folderName = @"C:\databasesFolder";
+    // Path to Backup Folder - required '\' at the end of the path
+    private static string backupFolder = @"C:\backupFolder\";
+    // SQL Server Name
+    private static string dbServer = "";
+    // Username
+    private static string user = "";
+    // Password
+    private static string pass = "";
 
 
     
@@ -57,7 +62,7 @@ public static class Config
     {
         get
         {
-            return "Server=" + DbServer + ";Integrated Security=SSPI;User Id="+ User + ";Password=" + Password + ";"; ;
+            return "Server=" + DbServer + ";Integrated Security=SSPI;User Id="+ User + ";Password=" + Password + ";";
         }
     }
 }
