@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 public static class Config
 {
-    // Settings
+    // Configuration
     
     // Path to Folder with .mdf files
     private static string folderName = @"C:\databasesFolder";
