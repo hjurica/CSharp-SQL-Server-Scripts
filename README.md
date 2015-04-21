@@ -1,4 +1,4 @@
-# CSharp SQL Server Scripts
+# C# SQL Server Scripts
 
 CSharp Scripts for Attach, Detach, Backup and Restore SQLServer Databases All at Once.
 
